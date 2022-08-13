@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #636c79;
+    height: 130vh;
+}
+.nav{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.list{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-left: 20rem;
+}
+
+.list-item{
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn button{
+    padding: 10px 50px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 5rem;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.first-Section{
+    display: flex;
+    margin-top: 10rem;
+    align-content: space-between;
+    align-items: center;
+}
+
+.right-section img{
+    width: 450px;
+    margin-left: 7rem;
+    margin-top: 4rem;
+
+}
+.left-section{
+    margin-left: 15rem;
+}
+.left-section h1{
+    font-size: 4.5rem;
+    color: #ffffff;
+    font-weight: 900;
+}
+.left-section p{
+    color:#cccccc;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.container .left-section .email{
+    position: relative;
+}
+
+.email{
+    margin-top: 40px;
+}
+
+.email .mail-icon{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.email input[type="email"]{
+    padding: 28px 190px 28px 20px;
+    outline: none;
+    width: 23rem;
+
+}
+.email input[type="email"]::placeholder{
+    font-size: 1rem;
+    position: absolute;
+    margin-left: 2rem;
+}
+.email button{
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    padding: 12px 60px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 5rem;
+    background-color: #8bb7a2;
+    border: 1px solid;
+}
+
+/* ......second section.......... */
+.second-section{
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+.second-section h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+.project-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 100px;
+}
+.project-lists{
+    margin-top: 30px;
+font-size: 50px;
+font-weight: 900;
+margin-left: 12rem;
+text-align: center;
+}
+.project-lists p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #636c79;
+}
+.project-image img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 65%;
+  margin-bottom: 10rem;
+}
+/* ..............third section.......... */
+.third-section{
+    height: 97vh;
+}
+.third-section h1{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+.design-section{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.design{
+    margin-left: 10rem;
+}
+.design h2{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.design h3{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    color: #636c79;
+    line-height: 30px;
+    font-style: normal;
+
+}
+.design button{
+    padding: 12px 60px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: #8bb7a2;
+    border: 1px solid;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.design-section img{
+    width: 30%;
+    margin-left: 20rem;
+}
+
+.design-section img{
+    width: 30%;
+    margin-left: 20rem;
+}
+
+/* ........forth section....... */
+
+.forth-section{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    height: 120vh;
+}
+
+.forth-section img{
+    width: 30%;
+    margin-left: 15rem;
+}
+.forth-section h2{
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-left: 5rem;
+}
+.forth-section h3{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    color: #636c79;
+    line-height: 30px;
+    margin-left: 5rem;
+    font-style: normal;
+
+}
+.forth-section button{
+    padding: 15px 30px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: #8bb7a2;
+    border: 1px solid;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+
+/* ........fifth section........ */
+.fifth-section{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    height: 90vh;
+}
+
+.fifth-section img{
+    width: 40%;
+    margin-left: 15rem;
+}
+
+.people h2{
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-left: 5rem;
+}
+
+.people h3{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    color: #636c79;
+    line-height: 30px;
+    margin-left: 5rem;
+    font-style: normal;
+}
+.people button{
+    padding: 15px 30px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: #8bb7a2;
+    border: 1px solid;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+
+/* ........sixth section */
+.sixth-section{
+    height: 140vh;
+}
+.text-meet{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.text-meet h1{
+    font-size: 60px;
+    margin-left: 13rem;
+}
+.text-meet h2{
+    font-size: 1.5rem;
+    color: #636c79;
+    line-height: 30px;
+    font-weight: 100;
+    margin-left: 11rem;
+    font-style: normal;
+}
+.people-image{
+    display: flex;
+    gap: 80px;
+    margin-left: 13em;
+    margin-top: 60px;
+}
+
+.image-section-people h2{
+    margin-top: 20px;
+}
+.image-section-people h3{
+    color: #636c79;
+    line-height: 30px;
+    font-weight: 100;
+}
+.people-image .image-section-people .image-people{
+    width: 280px;
+    
+}
+.btnnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btnnn button{
+    padding: 15px 30px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: #8bb7a2;
+    border: 1px solid;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+/* ...........footer....... */
+.bottom{
+    height: 70vh;
+    background-color: #282a2d;
+}
+
+footer{
+    background-color: #282a2d;
+}
+
+.navicon{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    gap: 40px;
+}
+.logo-name{
+    margin:20px;
+    margin-left: 100px;
+}
+.social-icon{
+    margin-left: 49.3rem;
+    width: 890px;
+}
+.socialIcon{
+    margin-left: 30px;
+    
+}
+hr{
+    margin-left: 6.2rem;
+    margin-right: 10rem;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.footertext{
+    display: flex;
+    margin-left: 6.2rem;
+    gap: 10.5rem;
+    margin-top: 40px;
+}
+.productname h1{
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.productname h2{
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: 100;
+    line-height: 40px;
+}
